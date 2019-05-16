@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PagoInicial"></activity>
+        <activity android:name=".MembresiaPagada"></activity>
+        <activity android:name=".Membresia" />
+        <activity android:name=".PagoFinal" />
+        <activity android:name=".ContratoCierre" />
+        <activity android:name=".PagoInicial" />
         <activity android:name=".ContratoReserva" />
         <activity android:name=".HojaTerminos" />
         <activity android:name=".MenuPrincipal" />

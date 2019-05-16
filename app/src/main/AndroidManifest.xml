@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HojaTerminos"></activity>
+        <activity android:name=".PagoInicial"></activity>
+        <activity android:name=".ContratoReserva" />
+        <activity android:name=".HojaTerminos" />
         <activity android:name=".MenuPrincipal" />
         <activity android:name=".ConfirmacionCodigo" />
         <activity android:name=".MainActivity">

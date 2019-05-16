@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContratoReserva">
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="34dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_red_dark"
+        android:text="Nueva Firma"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnMisma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="102dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_red_dark"
+        android:text="Utilizar La Misma Firma"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

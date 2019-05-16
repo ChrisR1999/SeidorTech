@@ -21,4 +21,10 @@ public class MenuPrincipal extends AppCompatActivity {
         Intent intent = new Intent(this, HojaTerminos.class);
         startActivity(intent);
     }
+
+    public void PagoInicial(View view) {
+
+        Intent intent = new Intent(this, PagoInicial.class);
+        startActivity(intent);
+    }
 }

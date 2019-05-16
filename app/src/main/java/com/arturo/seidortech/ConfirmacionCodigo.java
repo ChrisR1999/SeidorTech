@@ -15,7 +15,7 @@ public class ConfirmacionCodigo extends AppCompatActivity {
 
     public void PasarActivity(View view){
 
-        Intent intent = new Intent(this, HojaTerminos.class);
+        Intent intent = new Intent(this, MenuPrincipal.class);
 
         startActivity(intent);
     }

@@ -20,5 +20,4 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ConfirmacionCodigo.class);
         startActivity(intent);
     }
-
 }

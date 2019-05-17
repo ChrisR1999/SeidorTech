@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MembresiaPagada"></activity>
+        <activity android:name=".Usuario">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MembresiaPagada" />
         <activity android:name=".Membresia" />
         <activity android:name=".PagoFinal" />
         <activity android:name=".ContratoCierre" />
@@ -19,11 +26,7 @@
         <activity android:name=".MenuPrincipal" />
         <activity android:name=".ConfirmacionCodigo" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

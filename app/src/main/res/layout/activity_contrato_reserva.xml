@@ -19,7 +19,7 @@
     </LinearLayout>
 
     <ImageButton
-        android:id="@+id/btnCamera2"
+        android:id="@+id/btnCamera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -44,7 +44,7 @@
         android:id="@+id/imageView2"
         android:layout_width="405dp"
         android:layout_height="394dp"
-        android:layout_above="@+id/btnCamera2"
+        android:layout_above="@+id/btnCamera"
         android:layout_below="@+id/linearToolbar"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="7dp"

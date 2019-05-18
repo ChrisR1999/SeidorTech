@@ -6,7 +6,7 @@ import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 public class HojaTerminos extends AppCompatActivity {
@@ -20,7 +20,7 @@ public class HojaTerminos extends AppCompatActivity {
         setContentView(R.layout.activity_hoja_terminos);
 
 
-        Button btnCamera = (Button)findViewById(R.id.btnCamera);
+        ImageButton btnCamera = (ImageButton) findViewById(R.id.btnCamera);
         imageView = (ImageView)findViewById(R.id.imageView);
 
 
@@ -48,6 +48,12 @@ public class HojaTerminos extends AppCompatActivity {
         public void PasarActivity() {
 
         Intent intent = new Intent(this, MenuPrincipal.class);
+        startActivity(intent);
+    }
+    public void PasarActivity2(View view){
+
+        Intent intent = new Intent(this, Usuario.class);
+
         startActivity(intent);
     }
 

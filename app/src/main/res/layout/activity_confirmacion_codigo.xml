@@ -18,25 +18,38 @@
             layout="@layout/toolbar" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="161dp"
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="131dp"
-        android:layout_marginBottom="144dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="145dp"
+        android:background="@drawable/border_set"
         android:onClick="PasarActivity"
-        android:text="Si, es correcto" />
+        app:srcCompat="@drawable/boton2" />
 
-    <Button
-        android:id="@+id/error"
-        android:layout_width="161dp"
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="135dp"
-        android:layout_marginBottom="85dp"
-        android:text="No Son Mis Datos" />
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="57dp"
+        android:background="@drawable/border_set"
+        android:onClick="PasarActivity2"
+        app:srcCompat="@drawable/boton3" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="364dp"
+        android:layout_above="@+id/imageButton"
+        android:layout_below="@+id/linearToolbar"
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="-10dp"
+        app:srcCompat="@drawable/codigo" />
 
 </RelativeLayout>

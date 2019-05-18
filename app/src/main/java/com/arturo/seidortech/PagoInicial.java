@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -36,7 +37,7 @@ public class PagoInicial extends AppCompatActivity {
 
 
         //Variables tomar foto
-        Button btnCamera = (Button)findViewById(R.id.btnCamera);
+        ImageButton btnCamera = (ImageButton) findViewById(R.id.btnCamera);
         imageView = (ImageView)findViewById(R.id.imageView);
 
 

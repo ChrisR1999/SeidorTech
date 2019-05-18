@@ -19,4 +19,11 @@ public class ConfirmacionCodigo extends AppCompatActivity {
 
         startActivity(intent);
     }
+
+    public void PasarActivity2(View view){
+
+        Intent intent = new Intent(this, Usuario.class);
+
+        startActivity(intent);
+    }
 }

@@ -30,12 +30,12 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="158dp"
+            android:layout_height="81dp"
             android:layout_marginTop="40dp"
             android:layout_weight="2"
             android:gravity="center_vertical"
-            android:text="Mi Asesor"
+            android:text="SEIDOR TECH"
             android:textColor="@color/colorAccent"
             android:textScaleX="1.05"
             android:textSize="22sp" />

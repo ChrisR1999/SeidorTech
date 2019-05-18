@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".ContratoCierre">
 
+    <LinearLayout
+        android:id="@+id/linearToolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

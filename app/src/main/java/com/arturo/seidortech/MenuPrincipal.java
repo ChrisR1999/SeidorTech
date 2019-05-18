@@ -18,7 +18,7 @@ public class MenuPrincipal extends AppCompatActivity {
 
     public void PasarActivity(View view) {
 
-        Intent intent = new Intent(this, HojaTerminos.class);
+        Intent intent = new Intent(this, ContratoCierre.class);
         startActivity(intent);
     }
 

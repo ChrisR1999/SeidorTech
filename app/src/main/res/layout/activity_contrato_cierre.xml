@@ -6,23 +6,42 @@
     android:layout_height="match_parent"
     tools:context=".ContratoCierre">
 
-    <EditText
-        android:id="@+id/editText2"
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="198dp"
-        android:layout_marginBottom="584dp"
-        android:ems="10"
-        android:inputType="date" />
+        android:text="Fecha"
+        android:id="@+id/bfecha"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="156dp" />
 
-    <com.google.android.gms.maps.MapView
-        android:id="@+id/mapView"
-        android:layout_width="287dp"
-        android:layout_height="225dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="68dp"
-        android:layout_marginBottom="288dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hora"
+        android:id="@+id/bhora"
+        android:layout_below="@+id/bfecha"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="46dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/efecha"
+        android:layout_alignTop="@+id/bfecha"
+        android:layout_toRightOf="@+id/bfecha"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ehora"
+        android:layout_alignBottom="@+id/bhora"
+        android:layout_toRightOf="@+id/bhora"
+        android:layout_alignRight="@+id/efecha"
+        android:layout_alignEnd="@+id/efecha" />
+
 </RelativeLayout>

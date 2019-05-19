@@ -1,5 +1,6 @@
 package com.arturo.seidortech;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -10,6 +11,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+
+import com.arturo.seidortech.Dialogos.BaseDialogo;
 
 public class HojaTerminos extends AppCompatActivity {
 
@@ -55,6 +58,9 @@ public class HojaTerminos extends AppCompatActivity {
         editor1.putString("dos", "0");
         editor1.putString("uno", "0");
         editor1.apply();
+            BaseDialogo prueba = new BaseDialogo(this, this, "Firma enviada\ncon exito.");
+            prueba.mostrarDialogo();
+
 
         Intent intent = new Intent(this, MenuPrincipal.class);
 

@@ -32,8 +32,7 @@ public class MainActivity extends AppCompatActivity {
         editor.apply();
 
         DisplayUtilidades display = new DisplayUtilidades(this);
-        BaseDialogo prueba = new BaseDialogo(this, this, "Puto el \n que lo lea");
-        prueba.mostrarDialogo();
+
 
     }
 

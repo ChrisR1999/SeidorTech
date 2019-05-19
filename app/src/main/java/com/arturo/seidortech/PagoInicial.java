@@ -14,6 +14,8 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.arturo.seidortech.Dialogos.BaseDialogo;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -80,6 +82,10 @@ public class PagoInicial extends AppCompatActivity {
             }
     public void PasarActivity2(View view) {
 
+
+        BaseDialogo prueba = new BaseDialogo(this, this, "Firma enviada\ncon exito.");
+        prueba.mostrarDialogo();
+
         SharedPreferences shard = getSharedPreferences("Preferencias", context.MODE_PRIVATE);
         SharedPreferences.Editor editor1;
         //editor.remove("MiDia");
@@ -87,6 +93,7 @@ public class PagoInicial extends AppCompatActivity {
         editor1.putString("tres", "3");
         editor1.putString("cuatro", "0");
         editor1.apply();
+
         Intent intent = new Intent(this, MenuPrincipal.class);
         startActivity(intent);
     }

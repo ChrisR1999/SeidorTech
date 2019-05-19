@@ -2,6 +2,9 @@ package com.arturo.seidortech;
 
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.AppCompatActivity;
@@ -15,13 +18,15 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
+import com.arturo.seidortech.Utilidades.DisplayUtilidades;
+
 import java.util.Calendar;
 
 public class ContratoCierre extends AppCompatActivity implements View.OnClickListener {
     ImageButton bfecha,bhora;
     EditText efecha,ehora;
     private  int dia,mes,ano,hora,minutos;
-
+Context context = this;
     private static final String TAG = "activity_contrato_cierre";
 
     private TextView mDisplayDate;
@@ -73,5 +78,21 @@ public class ContratoCierre extends AppCompatActivity implements View.OnClickLis
             timePickerDialog.show();
         }
 
+    }
+
+    public void PasarActivity(View view) {
+
+
+        DisplayUtilidades display = new DisplayUtilidades(this);
+
+        SharedPreferences shard = getSharedPreferences("Preferencias", context.MODE_PRIVATE);
+        SharedPreferences.Editor editor1;
+        //editor.remove("MiDia");
+        editor1 = shard.edit();
+        editor1.putString("cuatro", "3");
+        editor1.putString("cinco", "0");
+        editor1.apply();
+        Intent intent = new Intent(this, ConfirmacionCodigo.class);
+        startActivity(intent);
     }
 }

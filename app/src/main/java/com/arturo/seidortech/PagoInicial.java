@@ -1,6 +1,8 @@
 package com.arturo.seidortech;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.os.Handler;
 import android.provider.MediaStore;
@@ -22,6 +24,7 @@ public class PagoInicial extends AppCompatActivity {
     private Handler handler;
     private Runnable runnable;
     ImageView imageView;
+    Context context = this;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,6 +68,13 @@ public class PagoInicial extends AppCompatActivity {
             //Manda de regrso al menu una vez que se tome la foto
             public void PasarActivity() {
 
+                SharedPreferences shard = getSharedPreferences("Preferencias", context.MODE_PRIVATE);
+                SharedPreferences.Editor editor1;
+                //editor.remove("MiDia");
+                editor1 = shard.edit();
+                editor1.putString("tres", "3");
+                editor1.putString("cuatro", "0");
+                editor1.apply();
                 Intent intent = new Intent(this, MenuPrincipal.class);
                 startActivity(intent);
             }

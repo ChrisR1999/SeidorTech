@@ -7,10 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="660abba2-2e4f-4555-adb5-e8006589f58e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/eligefecha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/fecha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hora.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ubicacion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/contratocierre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/contratocierrecolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/contratosreservacolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/hojatermino.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/membresiacolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/membresiaincluye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pagofinal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pagofinalcolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pagoinicial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pagoinicialcolor.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" afterDir="false" />
@@ -18,9 +24,27 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/ContratoCierre.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/ContratoCierre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/ContratoReserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/ContratoReserva.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/HojaTerminos.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/HojaTerminos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/Membresia.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/Membresia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/MenuPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/MenuPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/PagoFinal.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/PagoFinal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/PagoInicial.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/PagoInicial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/contratosreserva.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/contratosreserva.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/membresia.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/membresia.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_contrato_cierre.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_contrato_cierre.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_contrato_reserva.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_contrato_reserva.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_membresia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_membresia.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu_principal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_menu_principal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pago_final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pago_final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pago_inicial.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pago_inicial.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,33 +76,33 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="5" />
-          <entry key="java" value="55" />
+          <entry key="java" value="65" />
           <entry key="png" value="2" />
-          <entry key="xml" value="67" />
+          <entry key="xml" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="5" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="55" />
-          <entry key="XML" value="67" />
+          <entry key="JAVA" value="65" />
+          <entry key="XML" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="6" />
-          <entry key="java" value="1188" />
+          <entry key="java" value="2144" />
           <entry key="txt" value="314" />
-          <entry key="xml" value="113" />
+          <entry key="xml" value="118" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="6" />
-          <entry key="JAVA" value="1188" />
+          <entry key="JAVA" value="2144" />
           <entry key="PLAIN_TEXT" value="314" />
-          <entry key="XML" value="113" />
+          <entry key="XML" value="118" />
         </counts>
       </usages-collector>
     </session>
@@ -86,22 +110,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-28/android/app/Instrumentation.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/HojaTerminos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30510">
-              <caret line="1213" selection-start-line="1213" selection-end-line="1213" />
+            <state relative-caret-position="378">
+              <caret line="47" column="5" selection-start-line="39" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu_principal.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -114,31 +128,27 @@
           <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_contrato_reserva.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="52" selection-end-column="46" />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_contrato_cierre.xml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/MenuPrincipal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="326">
+              <caret line="37" column="58" lean-forward="true" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+              <folding>
+                <element signature="e#1755#1997#0" expanded="true" />
+                <element signature="e#1996#1997#0" expanded="true" />
+                <element signature="e#2380#2625#0" expanded="true" />
+                <element signature="e#2624#2625#0" expanded="true" />
+                <element signature="e#3036#3277#0" expanded="true" />
+                <element signature="e#3276#3277#0" expanded="true" />
+                <element signature="e#3694#3935#0" expanded="true" />
+                <element signature="e#3934#3935#0" expanded="true" />
+                <element signature="e#4382#4626#0" expanded="true" />
+                <element signature="e#4625#4626#0" expanded="true" />
+                <element signature="e#5010#5251#0" expanded="true" />
+                <element signature="e#5250#5251#0" expanded="true" />
+                <element signature="e#5509#5768#0" expanded="true" />
+                <element signature="e#5767#5768#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,29 +156,66 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/ContratoCierre.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+            <state relative-caret-position="416">
+              <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/MenuPrincipal.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/PagoFinal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1890">
-              <caret line="78" column="58" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
+            <state relative-caret-position="218">
+              <caret line="52" column="40" lean-forward="true" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_hoja_terminos.xml">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/Membresia.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pago_final.xml">
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+            <state relative-caret-position="453">
+              <caret line="197" column="21" selection-start-line="197" selection-start-column="21" selection-end-line="197" selection-end-column="21" />
             </state>
           </provider>
           <provider selected="true" editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pago_inicial.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="197" column="21" selection-start-line="8" selection-start-column="4" selection-end-line="197" selection-end-column="21" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/PagoInicial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="79" column="13" selection-start-line="68" selection-start-column="12" selection-end-line="79" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -195,23 +242,27 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/toolbar.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/ContratoReserva.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_pago_inicial.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/PagoInicial.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_aviso_privasidad.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_usuario.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/ConfirmacionCodigo.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/HojaTerminos.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_confirmacion_codigo.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/Usuario.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_hoja_terminos.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/MenuPrincipal.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_menu_principal.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_membresia.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_contrato_reserva.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/ContratoCierre.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_contrato_cierre.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_menu_principal.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_contrato_reserva.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_membresia.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/HojaTerminos.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/ContratoReserva.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/PagoInicial.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/ContratoCierre.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_pago_inicial.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_pago_final.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/PagoFinal.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/Membresia.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/MenuPrincipal.java" />
       </list>
     </option>
   </component>
@@ -272,16 +323,6 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="SeidorTech" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="SeidorTech" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
@@ -454,7 +495,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.216971" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.216971" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -468,7 +509,7 @@
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.329849" />
-      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.30081302" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.30081302" />
       <window_info anchor="bottom" id="Android Profiler" order="8" weight="0.329849" />
       <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -485,12 +526,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_hoja_termino.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/Utilidades/PagoInicial.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/PagoFinal.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/Membresia.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/MembresiaPagada.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2106">
@@ -520,10 +555,6 @@
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pago_final.xml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/BuscadorArchivos.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -567,21 +598,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/boton10.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/PagoInicial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pago_inicial.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="text-editor" />
@@ -627,20 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/HojaTerminos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-28/android/app/Instrumentation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30510">
-          <caret line="1213" selection-start-line="1213" selection-end-line="1213" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_confirmacion_codigo.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -649,18 +651,25 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu_principal.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_hoja_terminos.xml">
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="1350">
+          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_membresia.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_contrato_cierre.xml">
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="2106">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2" />
@@ -673,56 +682,116 @@
       </provider>
       <provider selected="true" editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/MenuPrincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="78" column="58" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_hoja_terminos.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu_principal.xml">
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+        <state relative-caret-position="216">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
       <provider selected="true" editor-type-id="android-designer2" />
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-28/android/app/Instrumentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="1213" selection-start-line="1213" selection-end-line="1213" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/ContratoReserva.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="56" column="24" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="56" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/PagoInicial.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <caret line="79" column="13" selection-start-line="68" selection-start-column="12" selection-end-line="79" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_membresia.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pago_inicial.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="197" column="21" selection-start-line="8" selection-start-column="4" selection-end-line="197" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pago_final.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="197" column="21" selection-start-line="197" selection-start-column="21" selection-end-line="197" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/HojaTerminos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="47" column="5" selection-start-line="39" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/PagoFinal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="52" column="40" lean-forward="true" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/Membresia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/ContratoCierre.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+        <state relative-caret-position="416">
+          <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/arturo/seidortech/MenuPrincipal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="326">
+          <caret line="37" column="58" lean-forward="true" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+          <folding>
+            <element signature="e#1755#1997#0" expanded="true" />
+            <element signature="e#1996#1997#0" expanded="true" />
+            <element signature="e#2380#2625#0" expanded="true" />
+            <element signature="e#2624#2625#0" expanded="true" />
+            <element signature="e#3036#3277#0" expanded="true" />
+            <element signature="e#3276#3277#0" expanded="true" />
+            <element signature="e#3694#3935#0" expanded="true" />
+            <element signature="e#3934#3935#0" expanded="true" />
+            <element signature="e#4382#4626#0" expanded="true" />
+            <element signature="e#4625#4626#0" expanded="true" />
+            <element signature="e#5010#5251#0" expanded="true" />
+            <element signature="e#5250#5251#0" expanded="true" />
+            <element signature="e#5509#5768#0" expanded="true" />
+            <element signature="e#5767#5768#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_contrato_cierre.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
   </component>
   <component name="masterDetails">

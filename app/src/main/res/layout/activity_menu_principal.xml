@@ -36,7 +36,7 @@
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:onClick="PasarHojaTermino"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/hojaterminocolor" />
+                app:srcCompat="@drawable/hojatermino" />
 
             <ImageButton
                 android:id="@+id/ContratoReservas"
@@ -45,7 +45,7 @@
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:onClick="ContratoReservas"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/hojaterminocolor" />
+                app:srcCompat="@drawable/contratosreserva" />
 
             <ImageButton
                 android:id="@+id/PagoInicial"
@@ -54,7 +54,7 @@
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:onClick="PagoInicial"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/hojaterminocolor" />
+                app:srcCompat="@drawable/pagoinicial" />
 
             <ImageButton
                 android:id="@+id/ContratoCiere"
@@ -63,7 +63,7 @@
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:onClick="ContratoCierred"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/hojaterminocolor" />
+                app:srcCompat="@drawable/contratocierre" />
 
             <ImageButton
                 android:id="@+id/PagoFinal"
@@ -72,7 +72,7 @@
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:onClick="PagoFinald"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/hojaterminocolor" />
+                app:srcCompat="@drawable/pagofinal" />
 
             <ImageButton
                 android:id="@+id/Membresia"
@@ -81,29 +81,13 @@
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:onClick="Membresiad"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/contratosreserva" />
+                app:srcCompat="@drawable/membresia" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/button3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:onClick="PasarActivity"
-                    android:text="Button" />
-
-                <Button
-                    android:id="@+id/button4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:onClick="PagoInicial"
-                    android:text="Button" />
-
-            </LinearLayout>
+                android:orientation="horizontal"/>
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

@@ -6,13 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".MenuPrincipal">
 
+    <LinearLayout
+        android:id="@+id/linearToolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar" />
+    </LinearLayout>
+
     <ScrollView
+        android:id="@+id/scrollMenu"
         android:layout_width="match_parent"
-        android:layout_height="606dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="0dp"
-        android:layout_marginBottom="0dp">
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearToolbar">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -21,75 +31,79 @@
 
             <ImageButton
                 android:id="@+id/HojaTermino"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
                 android:onClick="PasarHojaTermino"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/hojaterminocolor" />
 
             <ImageButton
                 android:id="@+id/ContratoReservas"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
                 android:onClick="ContratoReservas"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/hojaterminocolor" />
 
             <ImageButton
                 android:id="@+id/PagoInicial"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
                 android:onClick="PagoInicial"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/hojaterminocolor" />
 
             <ImageButton
                 android:id="@+id/ContratoCiere"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
                 android:onClick="ContratoCierred"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/hojaterminocolor" />
 
             <ImageButton
                 android:id="@+id/PagoFinal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
                 android:onClick="PagoFinald"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/hojaterminocolor" />
 
             <ImageButton
                 android:id="@+id/Membresia"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
                 android:onClick="Membresiad"
+                android:scaleType="fitXY"
                 app:srcCompat="@drawable/contratosreserva" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="PasarActivity"
+                    android:text="Button" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="PagoInicial"
+                    android:text="Button" />
+
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
-
-    <LinearLayout
-        android:id="@+id/linearToolbar"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:orientation="vertical">
-
-        <include
-            android:id="@+id/toolbar"
-            layout="@layout/toolbar"
-            android:layout_height="match_parent" />
-    </LinearLayout>
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="PasarActivity"
-        android:text="Button"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="118dp" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="221dp"
-        android:onClick="PagoInicial"
-        android:text="Button" />
 </RelativeLayout>

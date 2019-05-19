@@ -3,14 +3,17 @@ package com.arturo.seidortech.Dialogos;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.arturo.seidortech.MenuPrincipal;
 import com.arturo.seidortech.R;
 import com.arturo.seidortech.Utilidades.DisplayUtilidades;
 
@@ -50,7 +53,7 @@ public class BaseDialogo {
 
         builder = new AlertDialog.Builder(contexto);
         final TextView textoDialogo = new TextView(contexto);
-        final ImageView imagenDialogo = new ImageView(contexto);
+        final ImageButton imagenDialogo = new ImageButton(contexto);
         final LinearLayout linearDialogo = new LinearLayout(contexto);
 
         LinearLayout.LayoutParams params;
@@ -80,6 +83,13 @@ public class BaseDialogo {
         imagenDialogo.setLayoutParams(paramsImagen);
         imagenDialogo.setScaleType(ImageView.ScaleType.FIT_XY);
         imagenDialogo.setImageResource(R.drawable.icono_ok);
+        imagenDialogo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(activity, MenuPrincipal.class);
+                activity.startActivity(intent);
+            }
+        });
 
         paramsTexto = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.WRAP_CONTENT,
@@ -98,7 +108,6 @@ public class BaseDialogo {
         linearDialogo.addView(textoDialogo);
 
         builder.setView(linearDialogo);
-
         dialogo = builder.create();
     }
 

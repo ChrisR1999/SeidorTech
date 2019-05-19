@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.arturo.seidortech.Dialogos.BaseDialogo;
 import com.arturo.seidortech.Utilidades.DisplayUtilidades;
 
 public class MainActivity extends AppCompatActivity {
@@ -29,6 +30,10 @@ public class MainActivity extends AppCompatActivity {
 
 
         editor.apply();
+
+        DisplayUtilidades display = new DisplayUtilidades(this);
+        BaseDialogo prueba = new BaseDialogo(this, this, "Puto el \n que lo lea");
+        prueba.mostrarDialogo();
 
     }
 

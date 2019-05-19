@@ -92,7 +92,7 @@ Context context = this;
         editor1.putString("cuatro", "3");
         editor1.putString("cinco", "0");
         editor1.apply();
-        Intent intent = new Intent(this, ConfirmacionCodigo.class);
+        Intent intent = new Intent(this, MenuPrincipal.class);
         startActivity(intent);
     }
 }

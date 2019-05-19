@@ -59,9 +59,20 @@ public class ContratoReserva extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void PasarActivity2(View view) {
 
-    //Aqui tendria que realizarse la Query a la BD para validar que ya exista una firma
-    public void MismaFoto(){
-        
+
+        SharedPreferences shard = getSharedPreferences("Preferencias", context.MODE_PRIVATE);
+        SharedPreferences.Editor editor1;
+        //editor.remove("MiDia");
+        editor1 = shard.edit();
+        editor1.putString("dos", "3");
+        editor1.putString("tres", "0");
+        editor1.apply();
+        Intent intent = new Intent(this, MenuPrincipal.class);
+        startActivity(intent);
     }
+
+
+
 }

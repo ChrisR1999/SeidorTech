@@ -56,4 +56,17 @@ ImageView imageView;
         Intent intent = new Intent(this, MenuPrincipal.class);
         startActivity(intent);
     }
+
+    public void PasarActivity(View view) {
+
+        SharedPreferences shard = getSharedPreferences("Preferencias", context.MODE_PRIVATE);
+        SharedPreferences.Editor editor1;
+        //editor.remove("MiDia");
+        editor1 = shard.edit();
+        editor1.putString("cinco", "3");
+        editor1.putString("seis", "0");
+        editor1.apply();
+        Intent intent = new Intent(this, MenuPrincipal.class);
+        startActivity(intent);
+    }
 }

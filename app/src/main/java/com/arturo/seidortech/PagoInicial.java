@@ -78,7 +78,18 @@ public class PagoInicial extends AppCompatActivity {
                 Intent intent = new Intent(this, MenuPrincipal.class);
                 startActivity(intent);
             }
+    public void PasarActivity2(View view) {
 
+        SharedPreferences shard = getSharedPreferences("Preferencias", context.MODE_PRIVATE);
+        SharedPreferences.Editor editor1;
+        //editor.remove("MiDia");
+        editor1 = shard.edit();
+        editor1.putString("tres", "3");
+        editor1.putString("cuatro", "0");
+        editor1.apply();
+        Intent intent = new Intent(this, MenuPrincipal.class);
+        startActivity(intent);
+    }
 
             public void countDownStart() {
         handler = new Handler();

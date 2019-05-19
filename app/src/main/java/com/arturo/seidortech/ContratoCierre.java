@@ -11,13 +11,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
 import java.util.Calendar;
 
 public class ContratoCierre extends AppCompatActivity implements View.OnClickListener {
-    Button bfecha,bhora;
+    ImageButton bfecha,bhora;
     EditText efecha,ehora;
     private  int dia,mes,ano,hora,minutos;
 
@@ -31,8 +32,8 @@ public class ContratoCierre extends AppCompatActivity implements View.OnClickLis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contrato_cierre);
 
-        bfecha=(Button)findViewById(R.id.bfecha);
-        bhora=(Button)findViewById(R.id.bhora);
+        bfecha=(ImageButton) findViewById(R.id.bfecha);
+        bhora=(ImageButton) findViewById(R.id.bhora);
         efecha=(EditText)findViewById(R.id.efecha);
         ehora=(EditText)findViewById(R.id.ehora);
         bfecha.setOnClickListener(this);

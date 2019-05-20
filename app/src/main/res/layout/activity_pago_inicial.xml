@@ -250,6 +250,7 @@
         android:layout_above="@id/btnCamera"
         android:layout_centerHorizontal="true"
         android:background="@drawable/border_set"
+        android:onClick="PasarActivity2"
         app:srcCompat="@drawable/boton8" />
 
     <ImageButton

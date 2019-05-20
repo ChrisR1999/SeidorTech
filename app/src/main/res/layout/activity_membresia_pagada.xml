@@ -6,46 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MembresiaPagada">
 
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="161dp"
-        android:layout_height="143dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="222dp"
-        android:layout_marginBottom="362dp"
-        app:srcCompat="@drawable/circuloverde" />
-
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="161dp"
-        android:layout_height="143dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="27dp"
-        android:layout_marginBottom="362dp"
-        app:srcCompat="@drawable/circuloverde" />
-
-    <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="161dp"
-        android:layout_height="143dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="223dp"
-        android:layout_marginBottom="229dp"
-        app:srcCompat="@drawable/circuloverde" />
-
-    <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="161dp"
-        android:layout_height="143dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="24dp"
-        android:layout_marginBottom="226dp"
-        app:srcCompat="@drawable/circuloverde" />
-
     <LinearLayout
         android:id="@+id/linearToolbar"
         android:layout_width="match_parent"
@@ -58,14 +18,21 @@
             layout="@layout/toolbar" />
     </LinearLayout>
 
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearToolbar"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/faltan" />
 
     <LinearLayout
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_below="@id/imageView19"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="15dp"
         android:layout_marginEnd="15dp"
         android:gravity="center"
         android:orientation="vertical">
@@ -74,7 +41,6 @@
             android:id="@+id/LinearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="horizontal">
@@ -98,7 +64,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="10dp"
-                android:layout_weight="1"
+                android:background="@drawable/circuloverde"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -110,7 +76,7 @@
                     android:text="00"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="#4a0000"
+                    android:textColor="#FFFFFF"
                     android:textSize="65sp"
                     android:textStyle="bold" />
 
@@ -132,7 +98,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_weight="1"
+                android:background="@drawable/circuloverde"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -144,7 +110,7 @@
                     android:text="00"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="#4a0000"
+                    android:textColor="#FFFFFF"
                     android:textSize="65sp"
                     android:textStyle="bold" />
 
@@ -152,7 +118,6 @@
                     android:id="@+id/txt_TimerHour"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:gravity="center_horizontal"
                     android:text="Horas"
                     android:textAlignment="center"
@@ -177,7 +142,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="10dp"
-                android:layout_weight="1"
+                android:background="@drawable/circuloverde"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -189,7 +154,7 @@
                     android:text="00"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="#4a0000"
+                    android:textColor="#FFFFFF"
                     android:textSize="65sp"
                     android:textStyle="bold" />
 
@@ -211,7 +176,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_weight="1"
+                android:background="@drawable/circuloverde"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -219,12 +184,11 @@
                     android:id="@+id/txtTimerSecond"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="3"
                     android:gravity="center"
                     android:text="00"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="#4a0000"
+                    android:textColor="#FFFFFF"
                     android:textSize="65sp"
                     android:textStyle="bold" />
 
@@ -243,5 +207,12 @@
         </LinearLayout>
     </LinearLayout>
 
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeLayout"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/renovar" />
 
 </RelativeLayout>

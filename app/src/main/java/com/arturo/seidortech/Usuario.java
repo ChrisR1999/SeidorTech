@@ -22,7 +22,7 @@ public class Usuario extends AppCompatActivity {
         usuarioToolbar = (ImageButton) findViewById(R.id.usuarioToolbar);
         encabezadoToolbar = (TextView) findViewById(R.id.encabezadoToolbar);
 
-        encabezadoToolbar.setText("Aqui cambiale");
+        encabezadoToolbar.setText("Tu Asesor");
 
         volverToolbar.setOnClickListener(new View.OnClickListener() {
             @Override

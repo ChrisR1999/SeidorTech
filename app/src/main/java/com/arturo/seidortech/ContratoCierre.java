@@ -15,6 +15,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
+import com.arturo.seidortech.Dialogos.BaseDialogo;
 import com.arturo.seidortech.Utilidades.DisplayUtilidades;
 
 import java.util.Calendar;
@@ -27,6 +28,7 @@ public class ContratoCierre extends AppCompatActivity implements View.OnClickLis
     ImageButton volverToolbar;
     ImageButton usuarioToolbar;
     Toolbar toolbar;
+    TextView encabezadoToolbar;
     private static final String TAG = "activity_contrato_cierre";
 
     private TextView mDisplayDate;
@@ -44,7 +46,7 @@ public class ContratoCierre extends AppCompatActivity implements View.OnClickLis
         bfecha.setOnClickListener(this);
         bhora.setOnClickListener(this);
 
-
+       // encabezadoToolbar.setText("Contrato Cierre");
 
         volverToolbar = (ImageButton) findViewById(R.id.atrasToolbar);
         usuarioToolbar = (ImageButton) findViewById(R.id.usuarioToolbar);
@@ -115,7 +117,7 @@ public class ContratoCierre extends AppCompatActivity implements View.OnClickLis
         editor1.putString("cuatro", "3");
         editor1.putString("cinco", "0");
         editor1.apply();
-        Intent intent = new Intent(this, MenuPrincipal.class);
-        startActivity(intent);
+        BaseDialogo prueba = new BaseDialogo(this, this, "Cita confirmada\ncon exito.");
+        prueba.mostrarDialogo();
     }
 }

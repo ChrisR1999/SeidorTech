@@ -36,7 +36,7 @@ public class HojaTerminos extends AppCompatActivity {
         usuarioToolbar = (ImageButton) findViewById(R.id.usuarioToolbar);
         encabezadoToolbar = (TextView) findViewById(R.id.encabezadoToolbar);
 
-        encabezadoToolbar.setText("Aqui cambiale");
+        encabezadoToolbar.setText("Hoja Terminos");
 
 
         volverToolbar.setOnClickListener(new View.OnClickListener() {
@@ -88,10 +88,7 @@ public class HojaTerminos extends AppCompatActivity {
         prueba.mostrarDialogo();
 
 
-        Intent intent = new Intent(this, MenuPrincipal.class);
 
-
-        startActivity(intent);
     }
 
     public void PasarActivity2(View view) {

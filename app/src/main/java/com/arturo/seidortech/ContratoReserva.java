@@ -13,6 +13,8 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.arturo.seidortech.Dialogos.BaseDialogo;
+
 public class ContratoReserva extends AppCompatActivity {
 
     ImageView imageView;
@@ -35,7 +37,7 @@ public class ContratoReserva extends AppCompatActivity {
 
         encabezadoToolbar = (TextView) findViewById(R.id.encabezadoToolbar);
 
-        encabezadoToolbar.setText("Aqui cambiale1111");
+        encabezadoToolbar.setText("Contrato Reserva");
 
 
 
@@ -87,8 +89,8 @@ public class ContratoReserva extends AppCompatActivity {
         editor1.putString("dos", "3");
         editor1.putString("tres", "0");
         editor1.apply();
-        Intent intent = new Intent(this, MenuPrincipal.class);
-        startActivity(intent);
+        BaseDialogo prueba = new BaseDialogo(this, this, "Firma enviada\ncon exito.");
+        prueba.mostrarDialogo();
     }
 
     public void PasarActivity2(View view) {
@@ -101,8 +103,8 @@ public class ContratoReserva extends AppCompatActivity {
         editor1.putString("dos", "3");
         editor1.putString("tres", "0");
         editor1.apply();
-        Intent intent = new Intent(this, MenuPrincipal.class);
-        startActivity(intent);
+        BaseDialogo prueba = new BaseDialogo(this, this, "\nEXITO.");
+        prueba.mostrarDialogo();
     }
 
 

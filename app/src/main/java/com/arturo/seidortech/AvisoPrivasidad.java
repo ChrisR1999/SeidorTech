@@ -23,7 +23,7 @@ public class AvisoPrivasidad extends AppCompatActivity {
 
         encabezadoToolbar = (TextView) findViewById(R.id.encabezadoToolbar);
 
-        encabezadoToolbar.setText("Aqui cambiale");
+        encabezadoToolbar.setText("Aviso De Privasidad");
 
 
         volverToolbar.setOnClickListener(new View.OnClickListener() {

@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.arturo.seidortech.Dialogos.BaseDialogo;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -50,8 +52,8 @@ public class MembresiaPagada extends AppCompatActivity {
     //Manda de regrso al menu una vez que se tome la foto
     public void PasarActivity() {
 
-        Intent intent = new Intent(this, MenuPrincipal.class);
-        startActivity(intent);
+        BaseDialogo prueba = new BaseDialogo(this, this, "Comprobante enviado\ncon exito.");
+        prueba.mostrarDialogo();
     }
 
 

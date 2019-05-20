@@ -13,6 +13,8 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.arturo.seidortech.Dialogos.BaseDialogo;
+
 public class Membresia extends AppCompatActivity {
 
     Context context = this;
@@ -34,7 +36,7 @@ public class Membresia extends AppCompatActivity {
         usuarioToolbar = (ImageButton) findViewById(R.id.usuarioToolbar);
         encabezadoToolbar = (TextView) findViewById(R.id.encabezadoToolbar);
 
-        encabezadoToolbar.setText("Aqui cambiale");
+        encabezadoToolbar.setText("Membresia");
 
         volverToolbar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -83,8 +85,8 @@ public class Membresia extends AppCompatActivity {
         editor1.putString("seis", "3");
 
         editor1.apply();
-        Intent intent = new Intent(this, MenuPrincipal.class);
-        startActivity(intent);
+        BaseDialogo prueba = new BaseDialogo(this, this, "Comprobante enviado\ncon exito.");
+        prueba.mostrarDialogo();
     }
 
     public void PasarActivity2(View view) {
@@ -96,7 +98,7 @@ public class Membresia extends AppCompatActivity {
         editor1.putString("seis", "3");
 
         editor1.apply();
-        Intent intent = new Intent(this, MenuPrincipal.class);
-        startActivity(intent);
+        BaseDialogo prueba = new BaseDialogo(this, this, "Comprobante enviado\ncon exito.");
+        prueba.mostrarDialogo();
     }
 }

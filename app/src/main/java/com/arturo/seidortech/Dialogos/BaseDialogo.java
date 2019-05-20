@@ -108,7 +108,10 @@ public class BaseDialogo {
         linearDialogo.addView(textoDialogo);
 
         builder.setView(linearDialogo);
+        builder.setCancelable(false);
+        //builder.setCanceledOnTouchOutside(false);
         dialogo = builder.create();
+
     }
 
     public void mostrarDialogo() {

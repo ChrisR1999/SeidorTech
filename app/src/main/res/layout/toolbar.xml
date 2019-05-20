@@ -55,7 +55,7 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:background="?attr/selectableItemBackgroundBorderless"
-            android:src="@android:drawable/ic_secure" />
+            android:src="@android:drawable/ic_menu_myplaces" />
 
     </LinearLayout>
 

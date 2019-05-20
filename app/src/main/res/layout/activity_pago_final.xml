@@ -18,13 +18,21 @@
             layout="@layout/toolbar" />
     </LinearLayout>
 
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearToolbar"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/recordamos" />
+
     <LinearLayout
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_below="@id/imageView19"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="15dp"
         android:layout_marginEnd="15dp"
         android:gravity="center"
         android:orientation="vertical">
@@ -33,17 +41,30 @@
             android:id="@+id/LinearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tvhappyevent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="50dp"
+                android:singleLine="true"
+                android:text="Merry Christmas 2018!"
+                android:textColor="@color/titulos"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
 
             <LinearLayout
                 android:id="@+id/LinearLayout10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="10dp"
-                android:layout_weight="1"
+                android:background="@drawable/circuloverde"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -55,7 +76,7 @@
                     android:text="00"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="#4a0000"
+                    android:textColor="#FFFFFF"
                     android:textSize="65sp"
                     android:textStyle="bold" />
 
@@ -64,7 +85,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
-                    android:text="Days"
+                    android:text="Dias"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textColor="@color/titulos"
@@ -72,13 +93,12 @@
                     android:textStyle="bold" />
             </LinearLayout>
 
-
             <LinearLayout
                 android:id="@+id/LinearLayout11"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_weight="1"
+                android:background="@drawable/circuloverde"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -90,7 +110,7 @@
                     android:text="00"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="#4a0000"
+                    android:textColor="#FFFFFF"
                     android:textSize="65sp"
                     android:textStyle="bold" />
 
@@ -99,7 +119,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
-                    android:text="Hours"
+                    android:text="Horas"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textColor="@color/titulos"
@@ -122,7 +142,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="10dp"
-                android:layout_weight="1"
+                android:background="@drawable/circuloverde"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -134,7 +154,7 @@
                     android:text="00"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="#4a0000"
+                    android:textColor="#FFFFFF"
                     android:textSize="65sp"
                     android:textStyle="bold" />
 
@@ -143,7 +163,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
-                    android:text="Minutes"
+                    android:text="Minutos"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textColor="@color/titulos"
@@ -156,7 +176,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:layout_weight="1"
+                android:background="@drawable/circuloverde"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -168,7 +188,7 @@
                     android:text="00"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:textColor="#4a0000"
+                    android:textColor="#FFFFFF"
                     android:textSize="65sp"
                     android:textStyle="bold" />
 
@@ -177,7 +197,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
-                    android:text="Seconds"
+                    android:text="Segundos"
                     android:textAlignment="center"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:textColor="@color/titulos"
@@ -187,6 +207,14 @@
         </LinearLayout>
     </LinearLayout>
 
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relativeLayout"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/pago" />
+
     <ImageButton
         android:id="@+id/btnCamera2"
         android:layout_width="wrap_content"
@@ -194,7 +222,7 @@
         android:layout_above="@id/btnCamera"
         android:layout_centerHorizontal="true"
         android:background="@drawable/border_set"
-        android:onClick="PasarActivity"
+        android:onClick="PasarActivity2"
         app:srcCompat="@drawable/boton8" />
 
     <ImageButton

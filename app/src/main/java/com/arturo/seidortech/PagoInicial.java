@@ -53,7 +53,7 @@ public class PagoInicial extends AppCompatActivity {
         usuarioToolbar = (ImageButton) findViewById(R.id.usuarioToolbar);
         encabezadoToolbar = (TextView) findViewById(R.id.encabezadoToolbar);
 
-        encabezadoToolbar.setText("Aqui cambiale");
+        encabezadoToolbar.setText("Pago Inicial");
 
 
         volverToolbar.setOnClickListener(new View.OnClickListener() {
@@ -104,8 +104,8 @@ public class PagoInicial extends AppCompatActivity {
         editor1.putString("tres", "3");
         editor1.putString("cuatro", "0");
         editor1.apply();
-        Intent intent = new Intent(this, MenuPrincipal.class);
-        startActivity(intent);
+        BaseDialogo prueba = new BaseDialogo(this, this, "Comprobante enviado\ncon exito.");
+        prueba.mostrarDialogo();
     }
 
     public void PasarActivity2(View view) {
@@ -122,8 +122,8 @@ public class PagoInicial extends AppCompatActivity {
         editor1.putString("cuatro", "0");
         editor1.apply();
 
-        Intent intent = new Intent(this, MenuPrincipal.class);
-        startActivity(intent);
+        BaseDialogo prueba2 = new BaseDialogo(this, this, "Comprobante enviado\ncon exito.");
+        prueba2.mostrarDialogo();
     }
 
     public void countDownStart() {

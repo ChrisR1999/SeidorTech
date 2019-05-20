@@ -12,6 +12,8 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.arturo.seidortech.Dialogos.BaseDialogo;
+
 public class PagoFinal extends AppCompatActivity {
     Context context = this;
     ImageView imageView;
@@ -31,7 +33,7 @@ public class PagoFinal extends AppCompatActivity {
         usuarioToolbar = (ImageButton) findViewById(R.id.usuarioToolbar);
         encabezadoToolbar = (TextView) findViewById(R.id.encabezadoToolbar);
 
-        encabezadoToolbar.setText("Aqui cambiale");
+        encabezadoToolbar.setText("Pago Final");
 
 
         volverToolbar.setOnClickListener(new View.OnClickListener() {
@@ -80,11 +82,11 @@ public class PagoFinal extends AppCompatActivity {
         editor1.putString("cinco", "3");
         editor1.putString("seis", "0");
         editor1.apply();
-        Intent intent = new Intent(this, MenuPrincipal.class);
-        startActivity(intent);
+        BaseDialogo prueba = new BaseDialogo(this, this, "Comprobante enviado\ncon exito.");
+        prueba.mostrarDialogo();
     }
 
-    public void PasarActivity(View view) {
+    public void PasarActivity2(View view) {
 
         SharedPreferences shard = getSharedPreferences("Preferencias", context.MODE_PRIVATE);
         SharedPreferences.Editor editor1;
@@ -93,7 +95,7 @@ public class PagoFinal extends AppCompatActivity {
         editor1.putString("cinco", "3");
         editor1.putString("seis", "0");
         editor1.apply();
-        Intent intent = new Intent(this, MenuPrincipal.class);
-        startActivity(intent);
+        BaseDialogo prueba = new BaseDialogo(this, this, "Comprobante enviado\ncon exito.");
+        prueba.mostrarDialogo();
     }
 }

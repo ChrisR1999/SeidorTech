@@ -4,23 +4,50 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
+import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class PagoFinal extends AppCompatActivity {
-Context context = this;
-ImageView imageView;
+    Context context = this;
+    ImageView imageView;
+    ImageButton volverToolbar;
+    ImageButton usuarioToolbar;
+    TextView encabezadoToolbar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pago_final);
 
         ImageButton btnCamera = (ImageButton) findViewById(R.id.btnCamera);
-        imageView = (ImageView)findViewById(R.id.imageView);
+        imageView = (ImageView) findViewById(R.id.imageView);
+
+        volverToolbar = (ImageButton) findViewById(R.id.atrasToolbar);
+        usuarioToolbar = (ImageButton) findViewById(R.id.usuarioToolbar);
+        encabezadoToolbar = (TextView) findViewById(R.id.encabezadoToolbar);
+
+        encabezadoToolbar.setText("Aqui cambiale");
+
+
+        volverToolbar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+
+        usuarioToolbar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PagoFinal.this, Usuario.class);
+                startActivity(intent);
+            }
+        });
 
 
         //Onclick para tomar la foto
@@ -28,7 +55,7 @@ ImageView imageView;
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-                startActivityForResult(intent,0);
+                startActivityForResult(intent, 0);
 
             }
         });

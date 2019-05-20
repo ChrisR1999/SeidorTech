@@ -4,12 +4,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
+import android.os.Bundle;
 import android.os.Handler;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -27,6 +27,10 @@ public class PagoInicial extends AppCompatActivity {
     private Runnable runnable;
     ImageView imageView;
     Context context = this;
+    ImageButton volverToolbar;
+    ImageButton usuarioToolbar;
+    TextView encabezadoToolbar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,7 +47,29 @@ public class PagoInicial extends AppCompatActivity {
 
         //Variables tomar foto
         ImageButton btnCamera = (ImageButton) findViewById(R.id.btnCamera);
-        imageView = (ImageView)findViewById(R.id.imageView);
+        imageView = (ImageView) findViewById(R.id.imageView);
+
+        volverToolbar = (ImageButton) findViewById(R.id.atrasToolbar);
+        usuarioToolbar = (ImageButton) findViewById(R.id.usuarioToolbar);
+        encabezadoToolbar = (TextView) findViewById(R.id.encabezadoToolbar);
+
+        encabezadoToolbar.setText("Aqui cambiale");
+
+
+        volverToolbar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+
+        usuarioToolbar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(PagoInicial.this, Usuario.class);
+                startActivity(intent);
+            }
+        });
 
 
         //Onclick para tomar la foto
@@ -58,28 +84,30 @@ public class PagoInicial extends AppCompatActivity {
         countDownStart();
     }
 
-            //Instrucciones que convierten la imagen tomada a un Bitmap
-            @Override
-            protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-                super.onActivityResult(requestCode, resultCode, data);
-                Bitmap bitmap = (Bitmap) data.getExtras().get("data");
-                //No se convierte a Bitmap que ya aqui seria mejor mandarla al servidor para revision
-                // imageView.setImageBitmap(bitmap);
-                PasarActivity();
-            }
-            //Manda de regrso al menu una vez que se tome la foto
-            public void PasarActivity() {
+    //Instrucciones que convierten la imagen tomada a un Bitmap
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        Bitmap bitmap = (Bitmap) data.getExtras().get("data");
+        //No se convierte a Bitmap que ya aqui seria mejor mandarla al servidor para revision
+        // imageView.setImageBitmap(bitmap);
+        PasarActivity();
+    }
 
-                SharedPreferences shard = getSharedPreferences("Preferencias", context.MODE_PRIVATE);
-                SharedPreferences.Editor editor1;
-                //editor.remove("MiDia");
-                editor1 = shard.edit();
-                editor1.putString("tres", "3");
-                editor1.putString("cuatro", "0");
-                editor1.apply();
-                Intent intent = new Intent(this, MenuPrincipal.class);
-                startActivity(intent);
-            }
+    //Manda de regrso al menu una vez que se tome la foto
+    public void PasarActivity() {
+
+        SharedPreferences shard = getSharedPreferences("Preferencias", context.MODE_PRIVATE);
+        SharedPreferences.Editor editor1;
+        //editor.remove("MiDia");
+        editor1 = shard.edit();
+        editor1.putString("tres", "3");
+        editor1.putString("cuatro", "0");
+        editor1.apply();
+        Intent intent = new Intent(this, MenuPrincipal.class);
+        startActivity(intent);
+    }
+
     public void PasarActivity2(View view) {
 
 
@@ -98,7 +126,7 @@ public class PagoInicial extends AppCompatActivity {
         startActivity(intent);
     }
 
-            public void countDownStart() {
+    public void countDownStart() {
         handler = new Handler();
         runnable = new Runnable() {
             @Override
@@ -110,7 +138,7 @@ public class PagoInicial extends AppCompatActivity {
 
 
                     //Lo mejor seria igual el FutureDate a un dato que provenga de la
-                   // BD en estos momentos se igual a una fecha de manera manual.
+                    // BD en estos momentos se igual a una fecha de manera manual.
                     Date futureDate = dateFormat.parse("2019-12-25");
                     Date currentDate = new Date();
                     if (!currentDate.after(futureDate)) {
